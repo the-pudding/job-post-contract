@@ -1,17 +1,17 @@
 {
-	"title": "Title Case Hed Goes Here",
-	"description": "sdf",
+	"title": "The Pudding is Hiring our Seventh Team Member",
+	"description": "The Pudding’s in-house brand creative agency, Polygraph, is hiring a full-time Journalist-Engineer to work on paid projects. The job is to work with other organizations to tell visual, data-led stories, which you’ll design and code.",
 	"site": "https://pudding.cool",
 	"siteName": "The Pudding",
-	"url": "https://pudding.cool/year/month/name/",
-	"keywords": "tk",
-	"imgFacebook": "https://pudding.cool/year/month/name/assets/social/social-facebook.jpg",
-	"imgTwitter": "https://pudding.cool/year/month/name/assets/social/social-twitter.jpg",
+	"url": "https://pudding.cool/career/studio-hire/",
+	"keywords": "job post,hiring,career",
+	"imgFacebook": "https://pudding.cool/career/studio-hire/assets/social/social-facebook.jpg",
+	"imgTwitter": "https://pudding.cool/career/studio-hire/assets/social/social-twitter.jpg",
 	"author": {
 		"name": "The Pudding",
 		"url": "https://pudding.cool/author/the-pudding-team",
 		"twitterHandle": "@puddingviz"
 	},
-	"analytics": "",
+	"analytics": "UA-90567923-1",
 	"lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis neque sit amet sollicitudin vehicula. Maecenas fringilla mi non lacus mattis elementum. Curabitur dignissim faucibus justo."
 }
