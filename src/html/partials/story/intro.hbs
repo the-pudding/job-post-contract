@@ -1,9 +1,20 @@
 <div class='intro'>
 	<h1 class='intro__hed'>{{prose.title}}</h1>
-	<time class='intro__time'>Oct 2019</time>
+	<time class='intro__time'>Nov 2019</time>
 	<div class="text-section">
 		{{#each prose.introSection}}
 			<p>{{{value}}}</p>
+		{{/each}}
+	</div>
+	<h3 class='section__hed'>{{prose.usHed}}</h3>
+	<div class="text-section">
+		{{#each prose.usSection}}
+			{{#ifEquals type 'bullet'}}
+				<li>{{{value}}}</li>
+			{{/ifEquals}}
+			{{#ifEquals type 'text'}}
+				<p>{{{value}}}</p>
+				{{/ifEquals}}
 		{{/each}}
 	</div>
 	<h3 class='section__hed'>{{prose.doingHed}}</h3>
@@ -21,19 +32,6 @@
 	<div class="text-section">
 
 		{{#each prose.aboutSection}}
-			{{#ifEquals type 'bullet'}}
-				<li>{{{value}}}</li>
-			{{/ifEquals}}
-			{{#ifEquals type 'text'}}
-				<p>{{{value}}}</p>
-				{{/ifEquals}}
-		{{/each}}
-	</div>
-
-	<h3 class='section__hed'>{{prose.usHed}}</h3>
-	<div class="text-section">
-
-		{{#each prose.usSection}}
 			{{#ifEquals type 'bullet'}}
 				<li>{{{value}}}</li>
 			{{/ifEquals}}
